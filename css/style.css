@@ -1,0 +1,51 @@
+/* Basic styles */
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+:root {
+  --magenta: hsl(300, 43%, 22%);
+  --pink: hsl(333, 80%, 67%);
+  --dark-magenta: hsl(303, 10%, 53%);
+  --light-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%); 
+}
+
+body {
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  color: var(--magenta);
+}
+
+p {
+  color: var(--dark-magenta);
+}
+
+/* Header */
+
+/* Ratings */
+
+.ratings-card p {
+  color: var(--magenta);
+  font-weight: 700;
+}
+
+/* Customer */
+
+/* Attribution */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
