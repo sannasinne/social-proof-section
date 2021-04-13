@@ -23,22 +23,95 @@ body {
 
 h1 {
   color: var(--magenta);
+  font-size: 2rem;
+  line-height: 1;
+}
+
+h2 {
+  color: var(--light-magenta);
 }
 
 p {
   color: var(--dark-magenta);
+  line-height: 1.6;
+}
+
+/* Section */
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 340px;
+  margin: auto;
+  background-image: url("../images/bg-pattern-top-mobile.svg"), url("../images/bg-pattern-bottom-mobile.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom right;
 }
 
 /* Header */
 
+.header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
 /* Ratings */
+
+.ratings {
+  margin-bottom: 30px;
+}
+
+.ratings-card {
+  background: var(--light-magenta);
+  padding: 10px 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 10px;
+  width: 340px;
+}
 
 .ratings-card p {
   color: var(--magenta);
   font-weight: 700;
+  margin: 5px;
 }
 
 /* Customer */
+
+.customer-card {
+  display: flex;
+  flex-wrap: wrap;
+  background: var(--magenta);
+  padding: 35px 35px 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.customer-card h2 {
+  font-size: 1rem;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.customer-card p {
+  color: var(--light-magenta);
+  font-size: 13px;
+}
+
+.customer-card .buyer {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--pink);
+  margin: 0;
+}
+
+.customer-card img {
+  border-radius: 50%;
+  width: 50px;
+}
+
+/* Desktop styles */
 
 /* Attribution */
 
