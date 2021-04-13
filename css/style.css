@@ -113,6 +113,60 @@ section {
 
 /* Desktop styles */
 
+@media screen and (min-width: 990px) {
+  section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+    min-height: 100vh;
+    background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+  }
+
+  .header {
+    width: 450px;
+    text-align: left;
+  }
+
+  .header h1 {
+    font-size: 42px;
+    width: 400px;
+    margin-bottom: 5px;
+  }
+
+  .ratings-card {
+    width: 430px;
+  }
+
+  .ratings-card p {
+    display: inline;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .card-push-1 {
+    transform: translateY(-20%);
+  }
+
+  .card-push-2 {
+    transform: translateY(-10%);
+  }
+
+  .customer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .customer-card {
+    width: 350px;
+    margin: 15px;
+  }
+}
+
 /* Attribution */
 
 .attribution {
