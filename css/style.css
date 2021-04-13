@@ -113,7 +113,7 @@ section {
 
 /* Desktop styles */
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 1200px) {
   section {
     display: flex;
     flex-direction: row;
@@ -130,12 +130,17 @@ section {
   .header {
     width: 450px;
     text-align: left;
+    margin: 15px;
   }
 
   .header h1 {
     font-size: 42px;
     width: 400px;
     margin-bottom: 5px;
+  }
+
+  .ratings {
+    margin: 15px;
   }
 
   .ratings-card {
@@ -156,15 +161,25 @@ section {
     transform: translateY(-10%);
   }
 
+  .card-push-3 {
+    transform: translateX(-14%);
+  }
+
+  .card-push-4 {
+    transform: translateX(-7%);
+  }
+
   .customer {
     display: flex;
     flex-direction: row;
+    margin-bottom: 100px;
   }
 
   .customer-card {
     width: 350px;
     margin: 15px;
   }
+
 }
 
 /* Attribution */
